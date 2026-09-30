@@ -1,17 +1,17 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T13:28:59.225Z */
+/* Site content for cv2 — seeded from the "AmirReza Farzaneh CV 2" PDF. */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
-    "title": "Electrical Engineering Student, Control | biomedical AI & Medical imaging — Sharif University of Technology",
-    "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Verilog, Docker and networking tooling. Research interests: Medical Image Analysis, Deep Learning, Foundation Models, Biomedical Signal Processing, Neurotechnology",
+    "title": "Electrical Engineering Student — Sharif University of Technology",
+    "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Photoshop, Premiere, Verilog and LaTeX. Interested in AI, networking and DevOps.",
     "location": "Tehran, Iran",
     "email": "amirfh033@gamil.com",
     "phone": "+98 991 333 9615",
-    "github": "Amirfh033",
+    "github": "AmirFH04",
     "photo": "assets/profile.png"
   },
   "about": {
-    "body": "Electrical Engineering (Control) student at Sharif University of Technology developing a research profile at the intersection of Biomedical Engineering, Medical Imaging, Biomedical Signal Processing, Deep Learning, Computer Vision, and Neuroscience. Research experience includes medical image analysis and ultrasound imaging, supported by hands-on projects in EEG/EMG signal analysis, machine learning, deep learning, control, and data-driven systems. Experienced in both academic and industrial environments, including telecommunications engineering and laboratory data analysis.Seeking a research internship / visiting research opportunity for Summer 2027 in biomedical AI, medical imaging, or related areas.",
+    "body": "I'm an Electrical Engineering student in the Control track at Sharif University of Technology, working across control theory, machine learning and telecom infrastructure. My recent work spans superconducting-laboratory instrumentation, mobile network engineering at Irancell Labs, and independent projects in applied machine learning and systems programming. I'm looking for research collaborations, internships and laboratory placements where I can bring that mix of theory and hands-on engineering.",
     "facts": [
       {
         "label": "Based in",
@@ -64,14 +64,14 @@ window.SITE_DEFAULT_DATA = {
   "education": [
     {
       "degree": "B.Sc. Electrical Engineering — Control",
-      "institution": "Sharif University of Technology , GPA = 2.6",
+      "institution": "Sharif University of Technology",
       "location": "Tehran, Iran",
       "start": "Sep 2022",
       "end": "Present"
     },
     {
       "degree": "Diploma, Mathematics and Physics",
-      "institution": "Ostad Shahriyar , GPA = 4",
+      "institution": "Ostad Shahriyar",
       "location": "Tabriz, East Azerbaijan, Iran",
       "start": "Sep 2022",
       "end": "Present"
@@ -79,88 +79,37 @@ window.SITE_DEFAULT_DATA = {
   ],
   "skills": [
     {
-      "category": "Machine Learning & Deep Learning",
-      "items": [
-        "Machine Learning",
-        "Deep Learning",
-        "Supervised & Unsupervised Learning",
-        "Neural Networks",
-        "Convolutional Neural Networks (CNNs)",
-        "Vision Transformers (ViTs)",
-        "Transfer Learning",
-        "Representation Learning",
-        "Foundation Models",
-        "Model Evaluation & Performance Analysis",
-        "Classification & Segmentation"
-      ]
-    },
-    {
-      "category": "Medical Imaging & Computer Vision",
-      "items": [
-        "Medical Image Analysis",
-        "Medical Image Segmentation",
-        "Image Processing",
-        "Computer Vision",
-        "Ultrasound Imaging",
-        "Image Classification",
-        "Object Detection",
-        "Semantic Segmentation",
-        "Quantitative Image Analysis",
-        "Medical Imaging Evaluation Metrics"
-      ]
-    },
-    {
-      "category": "Biomedical Signal Processing",
-      "items": [
-        "Biomedical Signal Processing",
-        "EEG Signal Processing",
-        "EMG Signal Processing",
-        "Time-Series Analysis",
-        "Signal Filtering & Preprocessing",
-        "Feature Extraction",
-        "Time-Frequency Analysis",
-        "Signal Classification"
-      ]
-    },
-    {
-      "category": "Programming & Scientific Computing",
+      "category": "Programming Languages",
       "items": [
         "Python",
-        "C++",
-        "MATLAB",
+        "C / C++",
         "Java",
-        "NumPy",
-        "Pandas",
-        "SciPy",
-        "Matplotlib",
-        "Scikit-learn",
-        "PyTorch",
-        "TensorFlow"
+        "MATLAB"
       ]
     },
     {
-      "category": "Mathematics, Optimization & Control",
+      "category": "Machine Learning & AI",
       "items": [
-        "Linear Algebra",
-        "Probability & Statistics",
-        "Convex Optimization",
-        "Numerical Optimization",
-        "Control Systems",
-        "Modern Control",
-        "System Modeling",
-        "Signal & Systems Analysis"
+        "Machine Learning",
+        "Deep Learning"
       ]
     },
     {
-      "category": "Engineering & Development Tools",
+      "category": "Networking",
       "items": [
-        "Git & GitHub",
+        "CCNA",
+        "Cisco Packet Tracer",
+        "NMOS",
+        "Grafana"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": [
         "Linux",
+        "Git",
         "Docker",
-        "REST APIs",
-        "Verilog",
-        "Digital Logic",
-        "MATLAB/Simulink"
+        "MySQL"
       ]
     }
   ],
@@ -188,49 +137,33 @@ window.SITE_DEFAULT_DATA = {
     {
       "course": "Linear Control",
       "grade": "12.0"
-    },
-    {
-      "course": "Brain and Machine Learning (current coursework)",
-      "grade": "in progress"
-    },
-    {
-      "course": "Neuroscience (current coursework)",
-      "grade": "in progress"
-    },
-    {
-      "course": "Deep learning (current coursework)",
-      "grade": "in progress"
-    },
-    {
-      "course": "Bioinstrument (current coursework)",
-      "grade": "in progress"
     }
   ],
   "projects": [
     {
-      "title": "USDFM (An UltraSound Speckle-Diffusion FoundationModel)",
-      "tag": "Medical imaging",
-      "note": "https://github.com/Amirfh033/usdfm"
-    },
-    {
-      "title": "Single-Channel EEG Seizure Prediction with an Ultra-Light CNN",
-      "tag": "Signal processing",
-      "note": "https://github.com/Amirfh033/seizure-prediction"
-    },
-    {
-      "title": "LQR Controller for a Fractional-Order SEIR Model",
-      "tag": "Control systems",
-      "note": "State-feedback controller and observer with servo disturbance rejection and anti-windup compensation.https://github.com/Amirfh033/SEIR-Fractional-Epidemic-Model"
-    },
-    {
-      "title": "Hidden Markov Anomaly Detection",
-      "tag": "Machine learning",
-      "note": "Sequence anomaly detection using HMMs.https://github.com/Amirfh033/hmad_project"
+      "title": "Scalable Country Code Lookup Service",
+      "tag": "Backend & infra",
+      "note": "FastAPI, PostgreSQL, Redis and Kafka, containerized with Docker."
     },
     {
       "title": "Real-Time Revenue Analytics Pipeline",
       "tag": "Data engineering",
-      "note": "Apache Spark Structured Streaming with MinIO.https://github.com/Amirfh033/ref_sms_streaming"
+      "note": "Apache Spark Structured Streaming with MinIO."
+    },
+    {
+      "title": "LQR Controller for a Fractional-Order SEIR Model",
+      "tag": "Control systems",
+      "note": "State-feedback controller and observer with servo disturbance rejection and anti-windup compensation."
+    },
+    {
+      "title": "Hidden Markov Anomaly Detection",
+      "tag": "Machine learning",
+      "note": "Sequence anomaly detection using HMMs."
+    },
+    {
+      "title": "Visual Product Understanding & Category Classification",
+      "tag": "Machine learning",
+      "note": "Deep neural networks for product image classification."
     },
     {
       "title": "Intelligent Product Taxonomy Prediction",
@@ -248,9 +181,9 @@ window.SITE_DEFAULT_DATA = {
       "note": "Spectral entropy-based features, implemented in MATLAB."
     },
     {
-      "title": "Scalable Country Code Lookup Service",
-      "tag": "Backend & infra",
-      "note": "ShorFastAPI, PostgreSQL, Redis and Kafka, containerized with Docker.t description of the project.https://github.com/Amirfh033/Feri"
+      "title": "Cache Replacement Policy in ChampSim",
+      "tag": "Computer architecture",
+      "note": "Design and evaluation of a custom cache replacement policy."
     },
     {
       "title": "QAM Digital Modulation Simulation",
@@ -276,21 +209,6 @@ window.SITE_DEFAULT_DATA = {
       "title": "Jungle Marble Blast",
       "tag": "Game development",
       "note": "A game built in C++."
-    },
-    {
-      "title": "Customer Registration & Classification Automation",
-      "tag": "n8n",
-      "note": "https://github.com/Amirfh033/Customer-registration-AI-classification-automation-n8n-"
-    },
-    {
-      "title": "Company Knowledge RAG & AI Agent",
-      "tag": "RAG & AI Agent",
-      "note": "https://github.com/Amirfh033/rag-agent-knowledge-assistant"
-    },
-    {
-      "title": "Cache Replacement Policy in ChampSim",
-      "tag": "Computer architecture",
-      "note": "Short description of the project.Design and evaluation of a custom cache replacement policy."
     }
   ],
   "research": [
