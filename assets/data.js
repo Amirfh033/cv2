@@ -1,8 +1,8 @@
-/* Site content — last pushed from the admin panel on 2026-09-30T12:22:54.252Z */
+/* Site content — last pushed from the admin panel on 2026-09-30T13:28:59.225Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
-    "title": "Electrical Engineering Student, Control — Sharif University of Technology",
+    "title": "Electrical Engineering Student, Control | biomedical AI & Medical imaging — Sharif University of Technology",
     "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Verilog, Docker and networking tooling. Research interests: Medical Image Analysis, Deep Learning, Foundation Models, Biomedical Signal Processing, Neurotechnology",
     "location": "Tehran, Iran",
     "email": "amirfh033@gamil.com",
@@ -64,14 +64,14 @@ window.SITE_DEFAULT_DATA = {
   "education": [
     {
       "degree": "B.Sc. Electrical Engineering — Control",
-      "institution": "Sharif University of Technology",
+      "institution": "Sharif University of Technology , GPA = 2.6",
       "location": "Tehran, Iran",
       "start": "Sep 2022",
       "end": "Present"
     },
     {
       "degree": "Diploma, Mathematics and Physics",
-      "institution": "Ostad Shahriyar",
+      "institution": "Ostad Shahriyar , GPA = 4",
       "location": "Tabriz, East Azerbaijan, Iran",
       "start": "Sep 2022",
       "end": "Present"
@@ -79,54 +79,88 @@ window.SITE_DEFAULT_DATA = {
   ],
   "skills": [
     {
-      "category": "Programming",
-      "items": [
-        "Python",
-        "C / C++",
-        "Java",
-        "MATLAB",
-        "LaTex"
-      ]
-    },
-    {
-      "category": "Machine learning & AI",
+      "category": "Machine Learning & Deep Learning",
       "items": [
         "Machine Learning",
         "Deep Learning",
-        "LLMs",
-        "RAG"
+        "Supervised & Unsupervised Learning",
+        "Neural Networks",
+        "Convolutional Neural Networks (CNNs)",
+        "Vision Transformers (ViTs)",
+        "Transfer Learning",
+        "Representation Learning",
+        "Foundation Models",
+        "Model Evaluation & Performance Analysis",
+        "Classification & Segmentation"
       ]
     },
     {
-      "category": "Networking",
+      "category": "Medical Imaging & Computer Vision",
       "items": [
-        "CCNA",
-        "Cisco Packet Tracer",
-        "NMOS"
+        "Medical Image Analysis",
+        "Medical Image Segmentation",
+        "Image Processing",
+        "Computer Vision",
+        "Ultrasound Imaging",
+        "Image Classification",
+        "Object Detection",
+        "Semantic Segmentation",
+        "Quantitative Image Analysis",
+        "Medical Imaging Evaluation Metrics"
       ]
     },
     {
-      "category": "Tools & platforms",
+      "category": "Biomedical Signal Processing",
       "items": [
+        "Biomedical Signal Processing",
+        "EEG Signal Processing",
+        "EMG Signal Processing",
+        "Time-Series Analysis",
+        "Signal Filtering & Preprocessing",
+        "Feature Extraction",
+        "Time-Frequency Analysis",
+        "Signal Classification"
+      ]
+    },
+    {
+      "category": "Programming & Scientific Computing",
+      "items": [
+        "Python",
+        "C++",
+        "MATLAB",
+        "Java",
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "Matplotlib",
+        "Scikit-learn",
+        "PyTorch",
+        "TensorFlow"
+      ]
+    },
+    {
+      "category": "Mathematics, Optimization & Control",
+      "items": [
+        "Linear Algebra",
+        "Probability & Statistics",
+        "Convex Optimization",
+        "Numerical Optimization",
+        "Control Systems",
+        "Modern Control",
+        "System Modeling",
+        "Signal & Systems Analysis"
+      ]
+    },
+    {
+      "category": "Engineering & Development Tools",
+      "items": [
+        "Git & GitHub",
         "Linux",
-        "Git",
         "Docker",
-        "MySQL"
-      ]
-    },
-    {
-      "category": "Automation & Backend",
-      "items": [
-        "n8n",
         "REST APIs",
-        "Webhooks"
-      ]
-    },
-    {
-      "category": "Data bases",
-      "items": [
-        "PostgreSQL",
-        "Vector Databases"
+        "Verilog",
+        "Digital Logic",
+        "MATLAB/Simulink"
       ]
     }
   ],
@@ -300,5 +334,6 @@ window.SITE_DEFAULT_DATA = {
   ],
   "honors": [
     "Ranked 85th among 165,000 applicants, Iran National University Entrance Exam"
-  ]
+  ],
+  "customSections": []
 };
