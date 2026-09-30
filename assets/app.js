@@ -1,11 +1,11 @@
 (function(){
   "use strict";
 
-  var STORAGE_KEY = "arf_site_data_v1";
-  var PASS_KEY = "arf_site_password_v1";
-  var SESSION_FLAG = "arf_admin_unlocked";
+  var STORAGE_KEY = "arf_site_data_v1_cv2";
+  var PASS_KEY = "arf_site_password_v1_cv2";
+  var SESSION_FLAG = "arf_admin_unlocked_cv2";
   var DEFAULT_PASSWORD = "amirreza";
-  var GH_CONFIG_KEY = "arf_github_sync_v1";
+  var GH_CONFIG_KEY = "arf_github_sync_v1_cv2";
   var GH_DATA_PATH = "assets/data.js";
   var GH_AUTOSYNC_DELAY = 3000;
 
