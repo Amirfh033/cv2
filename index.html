@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AmirReza Farzaneh — Electrical Engineering</title>
+<meta name="description" content="AmirReza Farzaneh — Electrical Engineering student at Sharif University of Technology. Control systems, machine learning and networking.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<a href="#main" class="visually-hidden">Skip to content</a>
+
+<!-- ============ TOP NAV ============ -->
+<header class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="dot" aria-hidden="true"></span>AmirReza Farzaneh</span>
+    <nav aria-label="Primary">
+      <ul class="navlinks" id="navlinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navlinks" aria-label="Toggle navigation menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <svg class="circuit-bg" viewBox="0 0 1200 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M40 0H0V40" fill="none" stroke="#EDEFEA" stroke-opacity="0.05"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="500" fill="url(#grid)"/>
+      <g stroke="#B5651D" stroke-opacity="0.35" stroke-width="1.5" fill="none">
+        <path d="M0 380 H180 L220 340 H420"/>
+        <path d="M420 340 V180 L460 140 H700"/>
+        <path d="M700 140 H900 L940 100 V0"/>
+        <path d="M0 120 H120 L160 160 H320 L360 120 H520"/>
+        <path d="M1200 300 H1000 L960 260 H820"/>
+        <path d="M1200 440 H1080 L1040 400 H880 L840 440 H700"/>
+      </g>
+      <g fill="#B5651D" fill-opacity="0.55">
+        <circle cx="420" cy="340" r="4"/>
+        <circle cx="700" cy="140" r="4"/>
+        <circle cx="940" cy="100" r="4"/>
+        <circle cx="360" cy="120" r="4"/>
+        <circle cx="820" cy="260" r="4"/>
+        <circle cx="840" cy="440" r="4"/>
+      </g>
+    </svg>
+
+    <div class="wrap">
+      <div class="hero-photo" id="heroPhotoWrap">
+        <picture id="heroPhotoPicture">
+          <source id="heroPhotoWebp" srcset="assets/profile.webp" type="image/webp">
+          <img id="heroPhoto" src="assets/profile.png" alt="Portrait of AmirReza Farzaneh">
+        </picture>
+        <button type="button" class="photo-edit" id="photoEditBtn">Change photo</button>
+        <input type="file" id="photoInput" accept="image/*" class="visually-hidden">
+      </div>
+      <div>
+        <p class="hero-eyebrow ed" id="heroLocation">Tehran, Iran</p>
+        <h1 id="heroName" class="ed" contenteditable="false">AmirReza Farzaneh</h1>
+        <p class="role ed" id="heroTitle" contenteditable="false">Electrical Engineering Student, Control — Sharif University of Technology</p>
+        <p class="tagline ed" id="heroTagline" contenteditable="false">
+          Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Verilog, Docker and networking tooling.
+        </p>
+        <div class="hero-meta" id="heroMeta">
+          <span>✉ <a id="heroEmail" class="ed" href="mailto:amirfh033@gamil.com">amirfh033@gamil.com</a></span>
+          <span>☎ <span id="heroPhone" class="ed">+98 991 333 9615</span></span>
+          <span>⌥ <a id="heroGithub" class="ed" href="https://github.com/AmirFH04" target="_blank" rel="noopener">github.com/AmirFH04</a></span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-outline" href="#projects">View projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num" aria-hidden="true">01</span><h2>About</h2></div>
+      <div class="about-grid">
+        <div class="about-body">
+          <p id="aboutBody" class="ed" contenteditable="false"></p>
+        </div>
+        <div class="facts">
+          <dl id="aboutFacts"></dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num" aria-hidden="true">02</span><h2>Experience</h2></div>
+      <div class="timeline" id="experienceList"></div>
+      <button class="admin-add" data-add="experience">+ Add experience entry</button>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num" aria-hidden="true">03</span><h2>Education</h2></div>
+      <div class="edu-list" id="educationList"></div>
+      <button class="admin-add" data-add="education">+ Add education entry</button>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num" aria-hidden="true">04</span><h2>Skills</h2></div>
+      <div class="skills-groups" id="skillsList"></div>
+      <button class="admin-add" data-add="skills">+ Add skill category</button>
+
+      <div class="section-head" style="margin-top:2.75rem;"><span class="section-num" aria-hidden="true">05</span><h2>Key course grades</h2></div>
+      <table class="grades-table">
+        <thead><tr><th>Course</th><th style="text-align:right;">Grade</th><th aria-hidden="true"></th></tr></thead>
+        <tbody id="gradesList"></tbody>
+      </table>
+      <button class="admin-add" data-add="grades">+ Add course grade</button>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num" aria-hidden="true">06</span><h2>Projects</h2></div>
+      <p class="section-sub">A selection of coursework and independent projects across controls, machine learning, communications and systems.</p>
+      <div class="project-grid" id="projectsList"></div>
+      <button class="admin-add" data-add="projects">+ Add project</button>
+    </div>
+  </section>
+
+  <!-- ============ RESEARCH ============ -->
+  <section class="section" id="research">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num" aria-hidden="true">07</span><h2>Research</h2></div>
+      <div class="research-list" id="researchList"></div>
+      <button class="admin-add" data-add="research">+ Add research entry</button>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES / HONORS / LANGUAGES ============ -->
+  <section class="section" id="certificates">
+    <div class="wrap">
+      <div class="section-head"><span class="section-num" aria-hidden="true">08</span><h2>Certificates &amp; honors</h2></div>
+      <div class="two-col">
+        <div>
+          <h3 style="font-size:1rem; margin-bottom:0.9rem; color:var(--muted); font-family:var(--mono); font-weight:400;">Certificates</h3>
+          <div class="cert-list" id="certList"></div>
+          <button class="admin-add" data-add="certificates">+ Add certificate</button>
+        </div>
+        <div>
+          <h3 style="font-size:1rem; margin-bottom:0.9rem; color:var(--muted); font-family:var(--mono); font-weight:400;">Honors</h3>
+          <ul class="honors-list" id="honorsList"></ul>
+          <button class="admin-add" data-add="honors">+ Add honor</button>
+
+          <h3 style="font-size:1rem; margin:1.75rem 0 0.9rem; color:var(--muted); font-family:var(--mono); font-weight:400;">Languages</h3>
+          <div id="langList"></div>
+          <button class="admin-add" data-add="languages">+ Add language</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CUSTOM SECTIONS (added via the admin panel) ============ -->
+  <div id="customSectionsWrap"></div>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact-cta" id="contact">
+    <svg class="circuit-bg" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <g stroke="#2B6E62" stroke-opacity="0.4" stroke-width="1.5" fill="none">
+        <path d="M0 60 H220 L260 100 H520"/>
+        <path d="M1200 260 H960 L920 220 H700"/>
+      </g>
+    </svg>
+    <div class="wrap">
+      <h2>Let's work together</h2>
+      <p>Open to research collaborations, internships and laboratory placements in controls, machine learning and networking.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" id="contactEmailBtn" href="mailto:amirfh033@gamil.com">Email me</a>
+        <a class="btn btn-outline" id="contactGithubBtn" href="https://github.com/AmirFH04" target="_blank" rel="noopener">View GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> AmirReza Farzaneh. Built as a living CV — content last updated by site owner.</p>
+  <button class="admin-link" id="adminLink" type="button">Site owner? Edit this page →</button>
+</footer>
+
+<!-- ============ ADMIN BAR ============ -->
+<div class="admin-bar" id="adminBar" role="region" aria-label="Site editor">
+  <div class="wrap">
+    <span class="status" id="adminStatus">● Edit mode — click any underlined text to change it</span>
+    <div class="admin-bar-actions">
+      <span class="sync-status" id="syncStatus"></span>
+      <button id="btnAddSection">+ Add section</button>
+      <button id="btnGithub" class="gh-btn">GitHub sync</button>
+      <button id="btnExport">Export backup</button>
+      <button id="btnImport">Import backup</button>
+      <button id="btnPassword">Change password</button>
+      <button id="btnReset" class="danger">Reset to default</button>
+      <button id="btnExit">Exit edit mode</button>
+    </div>
+  </div>
+</div>
+<input type="file" id="importInput" accept="application/json" class="visually-hidden">
+
+<!-- ============ MODALS ============ -->
+<div class="modal-overlay" id="loginModal">
+  <div class="modal">
+    <h3>Edit this site</h3>
+    <p>Enter the site owner password to make changes. Default password is <strong>amirreza</strong> — change it once you're in.</p>
+    <p class="modal-error" id="loginError">Incorrect password. Try again.</p>
+    <input type="password" id="loginInput" placeholder="Password" autocomplete="current-password">
+    <div class="modal-actions">
+      <button class="btn btn-outline" id="loginCancel" style="color:var(--ink); border-color:var(--line);">Cancel</button>
+      <button class="btn btn-primary" id="loginSubmit">Unlock editing</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="passwordModal">
+  <div class="modal">
+    <h3>Change password</h3>
+    <p>This password only unlocks editing on this browser/device.</p>
+    <input type="password" id="newPasswordInput" placeholder="New password">
+    <div class="modal-actions">
+      <button class="btn btn-outline" id="passwordCancel" style="color:var(--ink); border-color:var(--line);">Cancel</button>
+      <button class="btn btn-primary" id="passwordSubmit">Save password</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="githubModal">
+  <div class="modal modal-wide">
+    <h3>GitHub sync</h3>
+    <p>Push your edits straight to the GitHub repo that powers your live site, so changes go out without copy-pasting files.</p>
+
+    <label class="modal-label" for="ghOwner">GitHub username</label>
+    <input type="text" id="ghOwner" placeholder="e.g. Amirfh033" autocomplete="off">
+
+    <label class="modal-label" for="ghRepo">Repository name</label>
+    <input type="text" id="ghRepo" placeholder="e.g. Amirreza.cv" autocomplete="off">
+
+    <label class="modal-label" for="ghBranch">Branch</label>
+    <input type="text" id="ghBranch" placeholder="main" autocomplete="off">
+
+    <label class="modal-label" for="ghToken">Personal access token</label>
+    <input type="password" id="ghToken" placeholder="github_pat_..." autocomplete="off">
+    <p class="modal-hint">
+      Create one at
+      <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>
+      — pick <strong>only this repository</strong> and grant <strong>Contents: Read and write</strong>. Nothing else is needed.
+      The token stays in this browser and is sent only to api.github.com.
+    </p>
+
+    <label class="modal-check">
+      <input type="checkbox" id="ghAutoSync">
+      Automatically push after every edit (a few seconds after you stop typing)
+    </label>
+
+    <p class="modal-error" id="githubError"></p>
+    <p class="modal-hint" id="githubLastSync"></p>
+
+    <div class="modal-actions modal-actions-split">
+      <button class="btn btn-outline" id="ghForget" style="color:#A03E3E; border-color:#A03E3E;">Forget token</button>
+      <div style="display:flex; gap:0.6rem;">
+        <button class="btn btn-outline" id="githubCancel" style="color:var(--ink); border-color:var(--line);">Close</button>
+        <button class="btn btn-outline" id="ghSaveOnly" style="color:var(--ink); border-color:var(--line);">Save settings</button>
+        <button class="btn btn-primary" id="ghPushNow">Push now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
