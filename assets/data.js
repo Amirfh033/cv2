@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:20:53.358Z */
+/* Site content — last pushed from the admin panel on 2026-10-01T07:25:09.960Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -151,6 +151,16 @@ window.SITE_DEFAULT_DATA = {
       "note": "Apache Spark Structured Streaming with MinIO."
     },
     {
+      "title": "Customer Registration & Classification Automation",
+      "tag": "n8n",
+      "note": "https://github.com/Amirfh033/Customer-registration-AI-classification-automation-n8n-"
+    },
+    {
+      "title": "Company Knowledge RAG & AI Agent",
+      "tag": "RAG & AI Agent",
+      "note": "https://github.com/Amirfh033/rag-agent-knowledge-assistant"
+    },
+    {
       "title": "LQR Controller for a Fractional-Order SEIR Model",
       "tag": "Control systems",
       "note": "State-feedback controller and observer with servo disturbance rejection and anti-windup compensation."
@@ -221,6 +231,11 @@ window.SITE_DEFAULT_DATA = {
       "title": "Survey Paper on Ultrasound Imaging",
       "collaborators": "Co-authored",
       "status": "In progress"
+    },
+    {
+      "title": "EEG Seizure Prediction — Reproduction of a Published Study",
+      "collaborators": "Independent Research Project",
+      "status": "2025-2026"
     }
   ],
   "certificates": [
