@@ -1,13 +1,13 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:25:09.960Z */
+/* Site content — last pushed from the admin panel on 2026-10-01T07:27:27.551Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
     "title": "Electrical Engineering Student — Sharif University of Technology",
     "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Photoshop, Premiere, Verilog and LaTeX. Interested in AI, networking and DevOps.",
     "location": "Tehran, Iran",
-    "email": "amirfh033@gamil.com",
+    "email": "amirfh033@gmail.com",
     "phone": "+98 991 333 9615",
-    "github": "AmirFH04",
+    "github": "Amirfh033",
     "photo": "assets/profile.png"
   },
   "about": {
@@ -91,7 +91,9 @@ window.SITE_DEFAULT_DATA = {
       "category": "Machine Learning & AI",
       "items": [
         "Machine Learning",
-        "Deep Learning"
+        "Deep Learning",
+        "n8n",
+        "RAG"
       ]
     },
     {
@@ -110,6 +112,12 @@ window.SITE_DEFAULT_DATA = {
         "Git",
         "Docker",
         "MySQL"
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        "PostgreSQL"
       ]
     }
   ],
