@@ -1,4 +1,4 @@
-/* Site content for cv2 — seeded from the "AmirReza Farzaneh CV 2" PDF. */
+/* Site content — last pushed from the admin panel on 2026-10-01T07:20:53.358Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
