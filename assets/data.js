@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-01T07:29:20.952Z */
+/* Site content — last pushed from the admin panel on 2026-10-23T15:39:58.920Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -239,6 +239,11 @@ window.SITE_DEFAULT_DATA = {
     {
       "title": "Survey Paper on Ultrasound Imaging",
       "collaborators": "Co-authored",
+      "status": "In progress"
+    },
+    {
+      "title": "New research title",
+      "collaborators": "Independent Research",
       "status": "In progress"
     },
     {
