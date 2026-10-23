@@ -1,4 +1,4 @@
-/* Site content — last pushed from the admin panel on 2026-10-23T15:41:06.217Z */
+/* Site content — last pushed from the admin panel on 2026-10-23T15:43:00.038Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
@@ -33,18 +33,11 @@ window.SITE_DEFAULT_DATA = {
   },
   "experience": [
     {
-      "role": "2G / 3G Optimization",
-      "org": "Irancell Labs",
+      "role": "System Controller & Lab Data Analyst",
+      "org": "Dr. Fardmanesh's Superconducting Laboratory",
       "location": "Tehran, Iran",
-      "start": "Jan 2026",
-      "end": "Present"
-    },
-    {
-      "role": "BSS Engineering",
-      "org": "Irancell Labs",
-      "location": "Tehran, Iran",
-      "start": "Dec 2025",
-      "end": "Jan 2026"
+      "start": "Jun 2024",
+      "end": "Oct 2024"
     },
     {
       "role": "Core Engineering",
@@ -54,11 +47,25 @@ window.SITE_DEFAULT_DATA = {
       "end": "Nov 2025"
     },
     {
-      "role": "System Controller & Lab Data Analyst",
-      "org": "Dr. Fardmanesh's Superconducting Laboratory",
+      "role": "BSS Engineering",
+      "org": "Irancell Labs",
       "location": "Tehran, Iran",
-      "start": "Jun 2024",
-      "end": "Oct 2024"
+      "start": "Dec 2025",
+      "end": "Jan 2026"
+    },
+    {
+      "role": "2G / 3G Optimization",
+      "org": "Irancell Labs",
+      "location": "Tehran, Iran",
+      "start": "Jan 2026",
+      "end": "March 2026"
+    },
+    {
+      "role": "AI Developer",
+      "org": "Raz company",
+      "location": "Tehran,Iran",
+      "start": "Sep 2026",
+      "end": "Present"
     }
   ],
   "education": [
@@ -237,6 +244,11 @@ window.SITE_DEFAULT_DATA = {
       "status": "In progress"
     },
     {
+      "title": "USDFM: An Ultrasound Speckle-Diffusion Foundation Model",
+      "collaborators": "Independent Research",
+      "status": "In progress"
+    },
+    {
       "title": "Survey Paper on Ultrasound Imaging",
       "collaborators": "Co-authored",
       "status": "In progress"
@@ -245,11 +257,6 @@ window.SITE_DEFAULT_DATA = {
       "title": "EEG Seizure Prediction — Reproduction of a Published Study",
       "collaborators": "Independent Research Project",
       "status": "2025-2026"
-    },
-    {
-      "title": "USDFM: An Ultrasound Speckle-Diffusion Foundation Model",
-      "collaborators": "Independent Research",
-      "status": "In progress"
     }
   ],
   "certificates": [
