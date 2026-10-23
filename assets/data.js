@@ -1,9 +1,9 @@
-/* Site content — last pushed from the admin panel on 2026-10-23T15:43:00.038Z */
+/* Site content — last pushed from the admin panel on 2026-10-23T15:44:33.429Z */
 window.SITE_DEFAULT_DATA = {
   "profile": {
     "name": "AmirReza Farzaneh",
     "title": "Electrical Engineering Student — Sharif University of Technology",
-    "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Photoshop, Premiere, Verilog and LaTeX. Interested in AI, networking and DevOps.",
+    "tagline": "Hands-on experience in Python, C++, Java and MATLAB, with practical exposure to Photoshop, Premiere, Verilog and LaTeX. Interested in AI, networking ,Data and DevOps.",
     "location": "Tehran, Iran",
     "email": "amirfh033@gmail.com",
     "phone": "+98 991 333 9615",
@@ -135,20 +135,20 @@ window.SITE_DEFAULT_DATA = {
       "grade": "17.7"
     },
     {
-      "course": "Linear Algebra",
-      "grade": "15.4"
-    },
-    {
       "course": "Convex Optimization",
       "grade": "16.1"
     },
     {
-      "course": "Industrial Control",
-      "grade": "14.0"
+      "course": "Linear Algebra",
+      "grade": "15.4"
     },
     {
       "course": "Modern Control",
       "grade": "15.4"
+    },
+    {
+      "course": "Industrial Control",
+      "grade": "14.0"
     },
     {
       "course": "Linear Control",
